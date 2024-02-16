@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<HEAD>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<TITLE>Powered by WebFOCUS</TITLE>
+<script type='text/javascript' src='/ibi_apps/tdg/jschart/distribution/tdgchart-min.js'></script>
+</HEAD>
+<BODY BGCOLOR="ffffff">
+<div class='chart' id='jschart_HOLD_0' style='vertical-align:text-bottom; overflow:hidden'></div>
+<script type='text/javascript'>
+(function() {
+var script = '';
+script += 'setDataRangeToExtent();';
+script += 'setDecimalSeparator(".");';
+script += 'setGroupingSeparator(",");';
+script += 'setMonetarySeparator(",");';
+script += 'setCentZero(false);';
+var chart = new tdgchart({backend:'js', allowBackendFallback:true});
+if (tdgchart.WF_charts == undefined)
+  tdgchart.WF_charts = {};
+tdgchart.WF_charts['jschart_HOLD_0'] = chart;
+chart.data = [];
+chart.title.text = '';
+chart.parsePFJString(script);
+chart.set({
+chartType: 'bar'
+});
+script = '';
+script += 'setTransparentBorderColor(getChartBackground(),true);';
+chart.parsePFJString(script);
+chart.set({
+	"fill": {
+		"color": "transparent"
+	},
+	"border": {
+		"width": 1,
+		"color": "transparent",
+		"dash": ""
+	},
+	"blaProperties": {
+		"areaFillEffect": "70%",
+  		"barGroupGapWidth": "0.4"
+	},
+	"bubbleMarker": {
+		"maxSize": "11%"
+	},
+	"pieProperties": {
+		"holeSize": 0,
+		"totalLabel": {
+			"visible": "auto",
+			"font": "10pt Sans-Serif",
+			"color": "#505050"
+		}
+	},
+	"gaugeProperties": {
+		"totalLabel": {
+			"color": "#505050"
+		},
+		"secondaryRingFillColor": "#e5e5e5",
+		"startAngle": 270,
+		"endAngle": 270,
+		"axisWidth": "25%",
+		"outerBorder": {
+			"fill": {
+				"color": "transparent"
+			},
+			"width": "6%"
+		}
+	},
+	"series": [
+		{
+			"series": "all",
+			"dataLabels": {
+				"visible": "auto",
+				"font": "7.5pt Sans-Serif",
+				"color": "auto"
+			},
+			"color": null,
+			"border": {
+				"width": 3
+			},
+			"marker": {
+				"visible": false,
+				"size": 10,
+				"border": {
+					"width": 2
+				},
+				"shape": "circle",
+				"fillEffect": "seriesAuto"
+			}
+		},
+		{
+			"series": 0,
+			"color": "#1f78b4"
+		},
+		{
+			"series": 1,
+			"color": "#b2df8a"
+		},
+		{
+			"series": 2,
+			"color": "#33a02c"
+		},
+		{
+			"series": 3,
+			"color": "#fee08b"
+		},
+		{
+			"series": 4,
+			"color": "#e1542b"
+		},
+		{
+			"series": 5,
+			"color": "#ffb061"
+		}
+	],
+	"legend": {
+		"visible": "auto",
+		"lineStyle": {
+			"width": 1,
+			"color": "transparent"
+		},
+		"title": {
+			"visible": false,
+			"font": "10pt Sans-Serif",
+			"color": "#505050"
+		},
+		"labels": {
+			"font": "7.5pt Sans-Serif",
+			"color": "#505050"
+		},
+		"shadow": false,
+		"position": "auto",
+		"backgroundcolor": "transparent",
+		"scroll": {
+			"enabled": true,
+			"handle": {
+				"color": "#D1D1D1",
+				"hoverColor": "#B3B3B3"
+			}
+		},
+		"dock": {
+			"enabled": true,
+			"button": {
+				"color": "#D1D1D1",
+				"hoverColor": "#B3B3B3"
+			}
+		}
+	},
+	"colorScale": {
+		"title": {
+			"text": "",
+			"visible": true
+		},
+		"colors": [
+			"#D73027",
+			"#FDAE61",
+			"#FFFFBF",
+			"#A6D96A",
+			"#1A9850"
+		],
+		"labels": {
+			"visible": true,
+			"font": "8pt Sans-Serif",
+			"color": "#505050"
+		},
+		"majorGrid": {
+			"visible": true,
+			"aboveRisers": true,
+			"lineStyle": {
+				"width": 1,
+				"color": "rgba(255, 255, 255, 0.3)"
+			},
+			"ticks": {
+				"length": 5,
+				"visible": false,
+				"style": "outer",
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		}
+	},
+	"xaxis": {
+		"mustIncludeZero": true,
+		"title": {
+			"visible": true,
+			"font": "10pt Sans-Serif",
+			"color": "#505050"
+		},
+		"labels": {
+			"visible": true,
+			"font": "9pt Sans-Serif",
+			"color": "#505050",
+			"excludeMin": false,
+			"nestingConcatSymbol": " : ",
+			"rotation": null
+		},
+		"labelLayout": {
+			"stagger": false,
+			"skip": "auto",
+			"scroll": "auto",
+			"truncate": "auto"
+		},
+		"bodyLineStyle": {
+			"width": 1,
+			"color": "#BABABA",
+			"dash": ""
+		},
+		"baseLineStyle": {
+			"width": 1,
+			"color": "#BABABA",
+			"dash": ""
+		},
+		"majorGrid": {
+			"visible": false,
+			"aboveRisers": false,
+			"lineStyle": {
+				"width": 1,
+				"color": "#EEEEEE",
+				"dash": ""
+			},
+			"ticks": {
+				"length": 5,
+				"visible": true,
+				"style": "inner",
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		},
+		"minorGrid": {
+			"visible": false,
+			"count": null,
+			"lineStyle": {
+				"width": 1,
+				"color": "#EEEEEE",
+				"dash": ""
+			},
+			"ticks": {
+				"length": 5,
+				"visible": false,
+				"style": "inner",
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		}
+	},
+	"yaxis": {
+		"mustIncludeZero": true,
+		"title": {
+			"visible": true,
+			"font": "10pt Sans-Serif",
+			"color": "#505050"
+		},
+		"labels": {
+			"visible": true,
+			"font": "9pt Sans-Serif",
+			"color": "#505050",
+			"excludeMin": false,
+			"rotation": null
+		},
+		"bodyLineStyle": {
+			"width": 1,
+			"color": "#BABABA",
+			"dash": ""
+		},
+		"baseLineStyle": {
+			"width": 1,
+			"color": "#BABABA",
+			"dash": ""
+		},
+		"minorGrid": {
+			"visible": false,
+			"count": null,
+			"lineStyle": {
+				"width": 1,
+				"color": "#EEEEEE",
+				"dash": ""
+			},
+			"ticks": {
+				"length": 5,
+				"style": "outer",
+				"visible": false,
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		},
+		"majorGrid": {
+			"visible": false,
+			"aboveRisers": false,
+			"lineStyle": {
+				"width": 1,
+				"color": "#EEEEEE",
+				"dash": ""
+			},
+			"ticks": {
+				"length": 5,
+				"visible": true,
+				"style": "outer",
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		}
+	},
+	"y2axis": {
+		"mustIncludeZero": true,
+		"title": {
+			"visible": true,
+			"font": "10pt Sans-Serif",
+			"color": "#505050"
+		},
+		"labels": {
+			"visible": true,
+			"font": "9pt Sans-Serif",
+			"color": "#505050",
+			"excludeMin": false,
+			"rotation": null
+		},
+		"bodyLineStyle": {
+			"width": 1,
+			"color": "#BABABA",
+			"dash": ""
+		},
+		"baseLineStyle": {
+			"width": 1,
+			"color": "#BABABA",
+			"dash": ""
+		},
+		"minorGrid": {
+			"visible": false,
+			"count": null,
+			"lineStyle": {
+				"width": 1,
+				"color": "#EEEEEE",
+				"dash": ""
+			},
+			"ticks": {
+				"length": 5,
+				"style": "outer",
+				"visible": false,
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		},
+		"majorGrid": {
+			"visible": false,
+			"aboveRisers": false,
+			"lineStyle": {
+				"width": 1,
+				"color": "#EEEEEE",
+				"dash": ""
+			},
+			"ticks": {
+				"length": 5,
+				"visible": true,
+				"style": "outer",
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		}
+	},
+	"matrixProperties": {
+		"rowLabels": {
+			"color": "#505050",
+			"font": "8pt Sans-Serif"
+		},
+		"colLabels": {
+			"color": "#505050",
+			"font": "8pt Sans-Serif"
+		},
+		"rowHeader": {
+			"color": "#505050",
+			"font": "10pt Sans-Serif"
+		},
+		"colHeader": {
+			"color": "#505050",
+			"font": "10pt Sans-Serif"
+		},
+		"cellBorder": {
+			"width": 1,
+			"color": "#AAAAAA"
+		}
+	},
+	"zaxis": {
+		"title": {
+			"text": "",
+			"visible": true,
+			"font": "10pt Sans-Serif",
+			"color": "#505050"
+		},
+		"labels": {
+			"visible": true,
+			"font": "9pt Sans-Serif",
+			"color": "#505050",
+			"excludeMin": false,
+			"excludeMax": "auto",
+			"rotation": null
+		},
+		"majorGrid": {
+			"visible": false,
+			"ticks": {
+				"visible": false
+			}
+		}
+	},
+	"mouseOverIndicator": {
+		"color": "transparent",
+		"border": {
+			"width": 2,
+			"color": "#303030"
+		},
+		"marker": {
+			"color": "rgba(255, 255, 0, 0.88)",
+			"size": 8,
+			"shape": "circle",
+			"rotation": 0,
+			"position": "top",
+			"border": {
+				"width": 0,
+				"color": "rgba(26, 26, 26, 0.9)",
+				"dash": ""
+			}
+		}
+	},
+	"dataSelection": {
+		"unselectedColor": "85%",
+		"selectionRect": {
+			"fill": "rgba(120, 120, 180, 0.45)",
+			"border": {
+				"width": 1,
+				"color": "rgba(120, 120, 205, 0.8)"
+			}
+		}
+	},
+	"tagcloudProperties": {
+		"engine": "new",
+		"font": "14pt Sans-serif"
+	},
+	"morphAnimation": {
+		"duration": 1000
+	},
+	"dataGridProperties": {
+		"colHeader": {
+			"sorting": {
+				"enabled": true
+			},
+			"resize": {
+				"enabled": true
+			}
+		}
+	},
+	"riserCycleEndLightness": 0.8,
+	"riserBevel": "none",
+	"showNullGroups": false,
+	"title": {
+		"align": "chartFrame",
+		"font": "bold 10pt Sans-Serif",
+		"color": "#222222"
+	},
+	"extensions": {
+		"com.esri.map": {
+			"baseLayer": {
+				"basemap": "gray"
+			}
+		}
+	}
+});
+chart.set({
+// The following properties were generated by the Reporting Server:
+data: [
+  [
+    [
+      39854440.529977
+    ]
+   ,[
+      49598845.239997
+    ]
+   ,[
+      33508818.119933
+    ]
+   ,[
+      55832578.359965
+    ]
+   ,[
+      86181070.519796
+    ]
+   ,[
+      16830023.810008
+    ]
+   ,[
+      17947619.620011
+    ]
+  ]
+]
+,xaxis: {
+  title: { visible: true ,text: 'Product Category' }
+}
+,yaxis: {
+  title: { visible: true ,text: 'Gross Profit' }
+}
+,title: {
+  visible: true
+ ,align: 'left'
+ ,text: '<span style="font-size:10pt">Report RCASTER </span>'
+}
+,series: [
+  {
+    series: 0
+   ,label: 'Gross Profit'
+   ,tooltip: {
+      regions: [
+        'WF_fields'
+       ,'WF_separator'
+       ,'WF_menu'
+      ]
+     ,WF_fields: [
+        { type: 'nameValue' ,name: 'Product Category' ,value: '{{group_label}}' }
+       ,{ type: 'nameValue' ,name: 'Gross Profit' ,value: '{{value|#("$#,###.00;-$#,###.00")}}' }
+      ]
+    }
+  }
+]
+,groupLabels: [
+  'Accessories'
+ ,'Camcorder'
+ ,'Computers'
+ ,'Media Player'
+ ,'Stereo Systems'
+ ,'Televisions'
+ ,'Video Production'
+]
+,blaProperties: {
+  orientation: 'horizontal'
+}
+,dataArrayMap: [
+  'value'
+]
+,dataBuckets: {
+  internal_api_version: 2.0
+ ,buckets: [
+    {
+      id: 'value'
+     ,fields: [
+        { title: 'Gross Profit' ,fieldName: 'WF_RETAIL_LITE.WF_RETAIL_SALES.GROSS_PROFIT_US' ,numberFormat: '$#,###.00;-$#,###.00' }
+      ]
+    }
+  ]
+}
+});
+var divId = 'jschart_HOLD_';
+var defaultWidth = 760;
+var defaultHeight = 400;
+var fitWidthOnly = false;
+var minHeight = 0;
+var noResize = false;
+window.addEventListener('resizesuspend', onManageResize);
+window.addEventListener('resizeresume', onManageResize);
+window.addEventListener('redraw', onDraw);
+function onManageResize(event)
+{
+  noResize = event.type == 'resizesuspend';
+}
+function onDraw(event)
+{
+  window.onresize();
+}
+var drawn = false;
+window.onresize = function() {
+  if (noResize) return;
+  var chartArray;
+  if (Array.isArray(chart))
+    chartArray = chart;
+  else
+  {
+    chartArray = new Array(1);
+    chartArray[0] = chart;
+  }
+  var numCharts = chartArray.length;
+  var oldWidth = chartArray[0].width;
+  var oldChartHeight = chartArray[0].height;
+  var width = window.innerWidth || document.documentElement.offsetWidth;
+  var height = defaultHeight;
+  if (!fitWidthOnly)
+    height = window.innerHeight || document.documentElement.offsetHeight;
+  if (width == 0 || height == 0) {
+    width = defaultWidth;
+    height = defaultHeight;
+  }
+  var body = document.getElementsByTagName("body")[0];
+  var style;
+  if (body.currentStyle) // IE
+    style = body.currentStyle;
+  else if (window.getComputedStyle)
+    style = window.getComputedStyle(body, null);
+  if (style != undefined) {
+    var hMargins = parseInt(style.marginLeft, 10) + parseInt(style.marginRight, 10);
+    width -= hMargins;
+    var vMargins = parseInt(style.marginTop, 10) + parseInt(style.marginBottom, 10);
+    height -= vMargins;
+  }
+  var chartHeight = height / numCharts;
+  if (chartHeight < minHeight)
+    chartHeight = minHeight;
+  if (!drawn || (oldWidth != width) || (oldChartHeight != height)) {
+    for (var i = 0; i < numCharts; i++)
+    {
+      var chrt = chartArray[i];
+      chrt.width = width;
+      chrt.height = chartHeight;
+      chrt.draw(divId + i);
+    }
+    drawn = true;
+  }
+};
+window.onload = window.onresize;
+})();
+</script>
+<div style='display: none'>
+Accessories
+Camcorder
+Computers
+Media Player
+Stereo Systems
+Televisions
+Video Production
+ 
+16830023.810008
+17947619.620011
+33508818.119933
+39854440.529977
+49598845.239997
+55832578.359965
+86181070.519796
+ 
+<span style="font-size:10pt">Report RCASTER </span>
+ 
+Product Category
+Gross Profit
+</div>
+</BODY>
+</HTML>

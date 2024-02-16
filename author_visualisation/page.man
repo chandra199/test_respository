@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ibx-res-bundle name="page_res.xml">
+	<pgx-meta>
+		<pgx-version>1.3</pgx-version>
+		<pgx-mode>MODE_CREATE</pgx-mode>
+		<pgx-hash>11d946b52ac5c3d1de1de9c133057d7321e5fa37</pgx-hash>
+		<pgx-page-defaults>
+			<pgx-filter-defaults
+			    label-position="top"
+			    label-alignment="center"
+			    label-split="auto"
+			    label-width="max"
+			    first-day="0"
+			>
+		</pgx-filter-defaults>
+	</pgx-page-defaults>
+</pgx-meta>
+<string-file src="page.prop?IBFS_format=pgx"/>
+<strings></strings>
+<styles></styles>
+<markup>
+	<markup-block>
+		<div class="pd-page-wrapper">
+			<div data-ibx-type="pdPage" data-ibxp-title="@STR_PAGE_HEADING" data-ibxp-description="@STR_PAGE_DESCRIPTION" data-ibxp-show-header="true" data-ibxp-initial-auto-load="true" data-ibxp-show-toolbar="true" data-ibxp-show-refresh="true" data-ibxp-enable-bookmarks="true" data-ibxp-show-export="true" data-ibxp-show-pdf="true" data-ibxp-show-pdf-landscape="true" data-ibxp-show-image="true" data-ibxp-filter-type="bottom" data-ibxp-filter-open="true" data-ibxp-filter-width="" data-ibxp-theme="IBFS:/WFC/Global/Themes/Standard/Default/theme.css" data-ibxp-default-content-theme="inherit" data-ibxp-size-class="pd-style-heading3" data-ibxp-ss-id="PAGE-LRKE513A33ZC5CNCS1962" data-ibxp-custom-class="" data-ibxp-hidden="false" data-ibxp-workbook="false" data-ibxp-show-embedded-js="true" data-ibxp-show-embedded-css="true" data-ibxp-max-width="">
+				<div data-ibx-type="pdFilterGrid" data-ibxp-column-count="insight" data-ibxp-ss-id="FILTERGRID-LRKE513A4HU2UL89F4580" data-ibxp-color-class="pd-style-default-color" data-ibxp-custom-class="">
+					<div data-ibx-type="pdFilterCell" data-ibxp-justify="center" data-ibxp-col-span="1" data-ibxp-align="start" data-ibxp-locked="false" data-ibxp-ss-id="FILTERCELL-LRKE5A1D1NHLIBT46870" data-ibxp-combined-filter="false" data-ibxp-combined-tooltip="" data-ibxp-custom-class="">
+						<div data-ibx-type='filterPill' data-ibxp-field-id='carolap.ORIGIN.COUNTRY' data-ibxp-type='DIMENSION' data-ibxp-aggragated='false' data-ibxp-agg-type='' data-ibxp-format='A10' data-ibxp-is-range='false' data-ibxp-ss-id='PILL-LRKE5A1I1TL2EFH411337' data-ibxp-custom-class='' data-ibxp-amper-name='[{"ampers":"DF_WH_COUNTRY"}]' data-ibxp-from-restore='true' data-ibxp-label='@STR_PILL_LABEL_1'></div>
+					</div>
+				</div>
+				<!--endgrid-->
+				<div data-ibx-type="pdPageSection" data-ibxp-collapsed="false" data-ibxp-description="@STR_SECTION_DESCRIPTION_2" data-ibxp-collapsible="false" data-ibxp-ss-id="SECTION-LRKE513A5Z2JNAQYX994" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color" data-ibxp-cell-height="60" data-ibxp-width="12">
+					<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_3" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_4" data-ibxp-maximized="false" data-ibxp-show-title="true" data-ibxp-show-toolbar="true" data-ibxp-show-expand="true" data-ibxp-show-refresh="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="0" data-ibxp-grid-y="0" data-ibxp-grid-width="6" data-ibxp-grid-height="7" data-ibxp-ss-id="CONTAINER-LRKE513A1G36P5CGP388" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+						<div data-ibx-type="pdContent" data-ibxp-type="canvas_widget" data-ibxp-title="@STR_PANE_TITLE_5" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_6" data-ibxp-ss-id="CONTENT-LRKE513A2HYXE328C1789" data-ibxp-iframe-name="" data-ibxp-custom-class="" data-ibxp-style="" data-ibxp-widget-name="baseCanvas" data-ibxp-widget-resource-bundle="" data-ibxp-widget-state="{}" data-ibxp-component-name="TableChart_1"></div>
+					</div>
+					<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_7" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_8" data-ibxp-maximized="false" data-ibxp-show-title="true" data-ibxp-show-toolbar="true" data-ibxp-show-expand="true" data-ibxp-show-refresh="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="6" data-ibxp-grid-y="0" data-ibxp-grid-width="6" data-ibxp-grid-height="7" data-ibxp-ss-id="CONTAINER-LRKHOD3O1IWXT6MLJ484" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+						<div data-ibx-type="pdContent" data-ibxp-type="canvas_widget" data-ibxp-title="@STR_PANE_TITLE_9" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_10" data-ibxp-ss-id="CONTENT-LRKHODA01XF1MZTDA215" data-ibxp-iframe-name="" data-ibxp-custom-class="" data-ibxp-style="inherit" data-ibxp-widget-name="baseCanvas" data-ibxp-widget-resource-bundle="" data-ibxp-widget-state="{}" data-ibxp-component-name="TableChart_2"></div>
+					</div>
+					<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_11" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_12" data-ibxp-maximized="false" data-ibxp-show-title="true" data-ibxp-show-toolbar="true" data-ibxp-show-expand="true" data-ibxp-show-refresh="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="0" data-ibxp-grid-y="7" data-ibxp-grid-width="6" data-ibxp-grid-height="7" data-ibxp-ss-id="CONTAINER-LRKHXVC91MGMUBDWA4491" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+						<div data-ibx-type="pdContent" data-ibxp-type="canvas_widget" data-ibxp-title="@STR_PANE_TITLE_13" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_14" data-ibxp-ss-id="CONTENT-LRKHXVF41DWT0J5PS1819" data-ibxp-iframe-name="" data-ibxp-custom-class="" data-ibxp-style="inherit" data-ibxp-widget-name="baseCanvas" data-ibxp-widget-resource-bundle="" data-ibxp-widget-state="{}" data-ibxp-component-name="TableChart_3"></div>
+					</div>
+				</div>
+				<!--endsections-->
+			</div>
+		</div>
+	</markup-block>
+	<markup-block>
+		<div class="pd-internal-stylesheet">
+			.page-placeholder {margin-left:20px;}
+			.PAGE-LRKE513A33ZC5CNCS1962 .pd-regular-filter-wrapper .pd-filter-grid {padding:0px 10px;}
+			.PAGE-LRKE513A33ZC5CNCS1962 .pd-page-canvas {padding-top:10px;}
+			.PAGE-LRKE513A33ZC5CNCS1962 .pd-page-canvas .pd-page-acc-section:last-child .grid-stack.pd-top-section {margin-bottom:10px;}
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section {margin:0px 10px 0px 10px;}
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.grid-stack-item-content {padding:10px;}
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-e,
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-se {right:5px;}
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-s,
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-se,
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-sw {bottom:5px;}
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-w,
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-sw {left:5px;}
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-placeholder &gt;.placeholder-content {top:10px;right:10px;bottom:10px;left:10px;}
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-e,
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-se {right:-5px;}
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-s,
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-se,
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-sw {bottom:-5px;}
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-w,
+			.PAGE-LRKE513A33ZC5CNCS1962 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-sw {left:-5px;}
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+		<!--endis-->
+		<div class="pd-tzo"></div>
+	</markup-block>
+	<markup-block>
+		<pgx-filters>
+			<![CDATA[W10=]]>
+		</pgx-filters>
+		<!--endpgxfilters-->
+	</markup-block>
+	<markup-block>
+		<pgx-interactions>
+			<![CDATA[W10=]]>
+		</pgx-interactions>
+		<!--endpgxinteractions-->
+	</markup-block>
+	<markup-block>
+		<pgx-wfd></pgx-wfd>
+		<!--endpgxwfd-->
+	</markup-block>
+</markup>
+<scripts></scripts>
+</ibx-res-bundle>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" type="HtmlFile">
+    <properties size="3">
+        <entry key="ChartType" value="Bar_Stacked"/>
+        <entry key="GeneratedByPath" value="IBFS:/WFC/Repository/Narayanan/chart_1.fex"/>
+        <entry key="OutputFormat" value="HTML5"/>
+    </properties>
+    <extendedProperties _jt="HashMap"/>
+    <nlsValues _jt="HashMap">
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Mon, 22 Jan 2024 01:27 PM IST chart_1_FRANCE"/>
+            </value>
+        </entry>
+    </nlsValues>
+</rootObject>

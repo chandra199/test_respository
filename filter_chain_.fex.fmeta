@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" type="FexFile">
+    <properties size="5">
+        <entry key="InsightDesigner" value="true"/>
+        <entry key="LastDescribed" value="1708070901165"/>
+        <entry key="OutputFormat" value="PDF"/>
+        <entry key="masters" value="&quot;ibisamp/car"/>
+        <entry key="tool" value="infoAssist,report,IAFull"/>
+    </properties>
+    <extendedProperties _jt="HashMap">
+        <entry>
+            <key _jt="string" value="_IA_Metadata"/>
+            <value _jt="string" value="-* Created By InfoAssist , ON: February 1, 2024, Version: HEAD-SNAPSHOT,BCB4BE&#10;-*Do not delete or modify the comments below&#10;*-INTERNAL_COMMENT LINE#0$PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8IS0tMS4wLS0+PFJvb3QgcmVsZWFzZT0iOS45LjkuOSIgdmVyc2lvbj0iMS40Ij4NCiAgICA8T2JqZWN0IG9iamVjdElkPSJUYWJsZUNoYXJ0XzEiPg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iY29tcG9uZW50Q3VzdG9tVGl0bGUiIHR5cGU9ImphdmEubGFuZy5Cb29sZWFuIj5mYWxzZTwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJMaW5rZWRTb3J0cyIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyIvPg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iSGlkZGVuRmllbGRzIiB0eXBlPSJNYXAiPg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iU29ydHMiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciLz4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9IlZlcmJzIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIi8+DQogICAgICAgIDwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJUeXBlT2ZDYW52YXNGb3JDb21wb25lbnQiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPmpzb248L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iZm9vdGVyRGVmYXVsdFZpc2libGUiIHR5cGU9ImphdmEubGFuZy5Cb29sZWFuIj5mYWxzZTwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJkdWFsQnVja2V0TnVtZXJpYyIgdHlwZT0iTWFwIi8+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJUYWJsZVR5cGUiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPnRhYmxlPC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9IldoZXJlVHlwZXNPcmRlcmVkIiB0eXBlPSJMaXN0Ij4NCiAgICAgICAgICAgIDxFbnRyeSB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5DRF9XSEVSRTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+Q0RfV0hFUkU8L0VudHJ5Pg0KICAgICAgICA8L1Byb3BlcnR5Pg0KICAgIDwvT2JqZWN0Pg0KICAgIDxPYmplY3Qgb2JqZWN0SWQ9IkdMT0JBTCI+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJTYXZlU3RhcnRUb29sSW5UeXBlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5Db21wb3NlPC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9InJzX3NhbXBsaW5nX2VuYWJsZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+TElWRV9EQVRBPC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9IlNhbXBsZURhdGEiIHR5cGU9ImphdmEubGFuZy5Cb29sZWFuIj5mYWxzZTwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJHbG9iYWxPcHRpbWl6YXRpb24iIHR5cGU9ImphdmEubGFuZy5Cb29sZWFuIj50cnVlPC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9Ikdsb2JhbFJlY29yZExpbWl0IiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj41MDA8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iZmV4TGV2ZWxHcmF5T3V0RmllbGRzTW9kZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iRm9jZXhlY1ByZWZlcmVuY2VzIiB0eXBlPSJNYXAiPg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGVmYXVsdF9wcmV2aWV3X3BhZ2VsaW1pdCIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+NTwvRW50cnk+DQogICAgICAgICAgICA8RW50cnkga2V5PSJhdXRvRHJpbGxTY3JpcHQiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciLz4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImVuYWJsZUluZm9NaW5pX1NhdmUiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPnRydWU8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0ibWV0YWRhdGFfdmlld3MiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPk1ldGFEYXRhVHJlZS5WSUVXX0RJTVM8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGVmYXVsdF9wcmV2aWV3X3BhZ2VsaW1pdF9sYXlvdXQiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPjE8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGVmYXVsdF9jb21wb3NlX2Zvcm1hdCIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+QUhUTUw8L0VudHJ5Pg0KICAgICAgICAgICAgPEVudHJ5IGtleT0iSXNHcmF5T3V0RmllbGRzTW9kZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L0VudHJ5Pg0KICAgICAgICA8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0iY2FzY2FkZU5hbWVzIiB0eXBlPSJNYXAiLz4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9Ik1hc3Rlcl9GaWxlcyIgdHlwZT0iU2V0Ij4NCiAgICAgICAgICAgIDxFbnRyeSB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5pYmlzYW1wL2NhcjwvRW50cnk+DQogICAgICAgIDwvUHJvcGVydHk+DQogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJtZXRhZGF0YVZpZXdBcyIgdHlwZT0iTWFwIj4NCiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImliaXNhbXAvY2FyIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5NZXRhRGF0YVRyZWUuVklFV19ESU1TPC9FbnRyeT4NCiAgICAgICAgPC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9IlJzX0ZvY2NhY2hlX1NhbXBsaW5nX0RhdGFfTWFzdGVyRmlsZV9NYXAiIHR5cGU9Ik1hcCI+DQogICAgICAgICAgICA8RW50cnkga2V5PSJpYmlzYW1wL2NhciIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+IENSRUFURV9TQU1QTElORyANCiB7JmFtcDtxdW90O3NvdXJjZV9hcHAmYW1wO3F1b3Q7IDogJmFtcDtxdW90O2liaXNhbXAmYW1wO3F1b3Q7LA0KJmFtcDtxdW90O3NvdXJjZV9uYW1lJmFtcDtxdW90OyA6ICZhbXA7cXVvdDtjYXImYW1wO3F1b3Q7DQp9DQpFTkQNCjwvRW50cnk+DQogICAgICAgIDwvUHJvcGVydHk+DQogICAgICAg&#10;*-INTERNAL_COMMENT LINE#1$IDxQcm9wZXJ0eSBuYW1lPSJHbG9iYWxWYWx1ZXNQYWdpbmciIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPjQ8L1Byb3BlcnR5Pg0KICAgICAgICA8UHJvcGVydHkgbmFtZT0idXNlck91dHB1dEZvcm1hdCIgdHlwZT0iamF2YS5sYW5nLkJvb2xlYW4iPmZhbHNlPC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9IkZpbHRlckNoYWluaW5nTW9kZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+RklMVEVSX0NIQUlOSU5HX09OPC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9IkRlc2lnbmVyX1BhZ2VfTW9kZSIgdHlwZT0iamF2YS5sYW5nLkJvb2xlYW4iPmZhbHNlPC9Qcm9wZXJ0eT4NCiAgICAgICAgPFByb3BlcnR5IG5hbWU9ImVuYWJsZVByZXZpZXciIHR5cGU9ImphdmEubGFuZy5Cb29sZWFuIj50cnVlPC9Qcm9wZXJ0eT4NCiAgICA8L09iamVjdD4NCjwvUm9vdD4NCg==&#10;-*Do not delete or modify the comments above&#10;"/>
+        </entry>
+    </extendedProperties>
+    <nlsValues _jt="HashMap">
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="filter chain'"/>
+            </value>
+        </entry>
+    </nlsValues>
+    <fexParameters _jt="ArrayList" size="2">
+        <item _jt="IBRFexParameter" amperFormat="A10" datadomain="COUNTRY" description="COUNTRY" index="0" multiselect="true" parent="" parmname="DF_WH_COUNTRY" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="10" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="COUNTRY" fieldName="car.ORIGIN.COUNTRY" format="A10" idxInChain="-1" inForm="true" isDefault="true" max="0.0" min="0.0" name="DF_WH_COUNTRY" noSelection="true" operation="OR" parent="" proc="" sortFields="" sortOrder="ASCENDING" strDef="'ENGLAND' OR 'FRANCE' OR 'ITALY' OR 'JAPAN' OR 'W GERMANY'" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="5">
+                    <item _jt="string" index="0" value="ENGLAND"/>
+                    <item _jt="string" index="1" value="FRANCE"/>
+                    <item _jt="string" index="2" value="ITALY"/>
+                    <item _jt="string" index="3" value="JAPAN"/>
+                    <item _jt="string" index="4" value="W GERMANY"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="5">
+                    <item _jt="string" index="0" value="ENGLAND"/>
+                    <item _jt="string" index="1" value="FRANCE"/>
+                    <item _jt="string" index="2" value="ITALY"/>
+                    <item _jt="string" index="3" value="JAPAN"/>
+                    <item _jt="string" index="4" value="W GERMANY"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                <values class="java.util.LinkedHashMap"/>
+                <dynValues class="com.ibi.wfrs.IBFSWFDescribe$DynamicAmper" displayField="" field="car.ORIGIN.COUNTRY" file="ibisamp/car">
+                    <type class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                </dynValues>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="COMPARATOR"/>
+                        <value _jt="string" value="EQ"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="FIELDNAME"/>
+                        <value _jt="string" value="car.ORIGIN.COUNTRY"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="REQUIRED"/>
+                        <value _jt="string" value="TRUE"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+        <item _jt="IBRFexParameter" amperFormat="A16" datadomain="CAR" description="CAR" index="1" multiselect="true" parent="" parmname="DF_WH_CAR" required="true">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+            <amperVar aggType="" amperIdx="11" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="CAR" fieldName="car.COMP.CAR" format="A16" idxInChain="-1" inForm="true" isDefault="false" max="0.0" min="0.0" name="DF_WH_CAR" noSelection="true" operation="OR" parent="" proc="" sortFields="" sortOrder="ASCENDING" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="unresolved"/>
+                <userDefValues _jt="array" itemsClass="string" size="0"/>
+                <defValues _jt="array" itemsClass="string" size="0"/>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                <values class="java.util.LinkedHashMap"/>
+                <dynValues class="com.ibi.wfrs.IBFSWFDescribe$DynamicAmper" displayField="" field="car.COMP.CAR" file="ibisamp/car">
+                    <type class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                </dynValues>
+                <parameters _jt="HashMap">
+                    <entry>
+                        <key _jt="string" value="COMPARATOR"/>
+                        <value _jt="string" value="EQ"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="FIELDNAME"/>
+                        <value _jt="string" value="car.COMP.CAR"/>
+                    </entry>
+                    <entry>
+                        <key _jt="string" value="REQUIRED"/>
+                        <value _jt="string" value="TRUE"/>
+                    </entry>
+                </parameters>
+            </amperVar>
+        </item>
+    </fexParameters>
+</rootObject>

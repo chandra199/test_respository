@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<HEAD>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<TITLE>Chart1</TITLE>
+<script type='text/javascript' src='/ibi_apps/tdg/jschart/distribution/tdgchart-min.js'></script>
+</HEAD>
+<BODY BGCOLOR="ffffff">
+<div class='chart' id='jschart_HOLD_0' style='vertical-align:text-bottom; overflow:hidden'></div>
+<script type='text/javascript'>
+(function() {
+var script = '';
+script += 'setDataRangeToExtent();';
+script += 'setDecimalSeparator(".");';
+script += 'setGroupingSeparator(",");';
+script += 'setMonetarySeparator(",");';
+script += 'setCentZero(false);';
+var chart = new tdgchart({backend:'js', allowBackendFallback:true});
+if (tdgchart.WF_charts == undefined)
+  tdgchart.WF_charts = {};
+tdgchart.WF_charts['jschart_HOLD_0'] = chart;
+chart.data = [];
+chart.title.text = '';
+chart.parsePFJString(script);
+chart.set({
+chartType: 'bar'
+});
+chart.set({
+	"injectedRevision" : "$Revision: 1.2 $",
+	"dataSetLimits": {"enabled": true},
+	"catchErrors" : true
+});
+chart.set({
+	"fill": {
+		"color": "transparent"
+	},
+	"border": {
+		"width": 1,
+		"color": "transparent",
+		"dash": ""
+	},
+	"blaProperties": {
+		"areaFillEffect": "70%",
+		"barGroupGapWidth": "0.4"
+	},
+	"bubbleMarker": {
+		"maxSize": "11%"
+	},
+	"pieProperties": {
+		"holeSize": 0,
+		"totalLabel": {
+			"visible": "auto",
+			"font": "10pt Sans-Serif",
+			"color": "#505050"
+		}
+	},
+	"gaugeProperties": {
+		"totalLabel": {
+			"color": "#505050"
+		},
+		"secondaryRingFillColor": "#e5e5e5",
+		"startAngle": 270,
+		"endAngle": 270,
+		"axisWidth": "25%",
+		"outerBorder": {
+			"fill": {
+				"color": "transparent"
+			},
+			"width": "6%"
+		}
+	},
+	"series": [
+		{
+			"series": "all",
+			"dataLabels": {
+				"visible": "auto",
+				"font": "7.5pt Sans-Serif",
+				"color": "auto"
+			},
+			"color": null,
+			"border": {
+				"width": 3
+			},
+			"marker": {
+				"visible": false,
+				"size": 10,
+				"border": {
+					"width": 2
+				},
+				"shape": "circle",
+				"fillEffect": "seriesAuto"
+			}
+		},
+		{
+			"series": 0,
+			"color": "#5388be"
+		},
+		{
+			"series": 1,
+			"color": "#9ed675"
+		},
+		{
+			"series": 2,
+			"color": "#4fa03d"
+		},
+		{
+			"series": 3,
+			"color": "#FCCE58"
+		},
+		{
+			"series": 4,
+			"color": "#e1542b"
+		},
+		{
+			"series": 5,
+			"color": "#efcca2"
+		},
+		{
+			"series": 6,
+			"color": "#58D8FC"
+		},
+		{
+			"series": 7,
+			"color": "#A08E3D"
+		},
+		{
+			"series": 8,
+			"color": "#8A53BE"
+		},
+		{
+			"series": 9,
+			"color": "#FC5886"
+		},
+		{
+			"series": 10,
+			"color": "#BE5453"
+		},
+		{
+			"series": 11,
+			"color": "#5454BE"
+		}
+	],
+	"legend": {
+		"visible": "auto",
+		"lineStyle": {
+			"width": 1,
+			"color": "transparent"
+		},
+		"title": {
+			"visible": false,
+			"font": "10pt Sans-Serif",
+			"color": "#505050"
+		},
+		"labels": {
+			"font": "7.5pt Sans-Serif",
+			"color": "#505050"
+		},
+		"shadow": false,
+		"position": "auto",
+		"backgroundcolor": "transparent",
+								"matchSeriesMarkers": false,
+		"scroll": {
+			"enabled": true,
+			"handle": {
+				"color": "#D1D1D1",
+				"hoverColor": "#B3B3B3"
+			}
+		},
+		"sizeLegend": {
+			"lineStyle": {
+			"color": "#505050"
+			}
+		},
+		"dock": {
+			"enabled": true,
+			"button": {
+				"color": "#D1D1D1",
+				"hoverColor": "#B3B3B3"
+			}
+		}
+	},
+	"colorScale": {
+		"colorMode": "discrete",
+		"title": {
+			"text": "",
+			"visible": true
+		},
+		"colors": [
+			"#EFF3FF",
+			"#C6DBEF",
+			"#9ECAE1",
+			"#6BAED6",
+			"#3182BD",
+			"#08519C"
+			],
+		"labels": {
+			"visible": true,
+			"font": "7.5pt Sans-Serif",
+			"color": "#505050"
+		},
+		"majorGrid": {
+			"visible": true,
+			"aboveRisers": true,
+			"lineStyle": {
+				"width": 1,
+				"color": "rgba(255, 255, 255, 0.3)"
+			},
+			"ticks": {
+				"length": 5,
+				"visible": false,
+				"style": "outer",
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		}
+	},
+	"xaxis": {
+		"mustIncludeZero": true,
+		"title": {
+			"visible": true,
+			"font": "10pt Sans-Serif",
+			"color": "#505050"
+		},
+		"labels": {
+			"visible": true,
+			"font": "9pt Sans-Serif",
+			"color": "#808080",
+			"excludeMin": false,
+			"nestingConcatSymbol": " : ",
+			"rotation": null
+		},
+		"labelLayout": {
+			"stagger": false,
+			"skip": "auto",
+			"scroll": "auto",
+			"truncate": "auto"
+		},
+		"bodyLineStyle": {
+			"width": 1,
+			"color": "#E0E0E0",
+			"dash": ""
+		},
+		"baseLineStyle": {
+			"width": 1,
+			"color": "#E0E0E0",
+			"dash": ""
+		},
+		"majorGrid": {
+			"visible": false,
+			"aboveRisers": false,
+			"lineStyle": {
+				"width": 1,
+				"color": "#EEEEEE",
+				"dash": ""
+			},
+			"ticks": {
+				"length": 5,
+				"visible": false,
+				"style": "inner",
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		},
+		"minorGrid": {
+			"visible": false,
+			"count": null,
+			"lineStyle": {
+				"width": 1,
+				"color": "#EEEEEE",
+				"dash": ""
+			},
+			"ticks": {
+				"length": 5,
+				"visible": false,
+				"style": "inner",
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		}
+	},
+	"yaxis": {
+		"mustIncludeZero": true,
+		"title": {
+			"visible": true,
+			"font": "10pt Sans-Serif",
+			"color": "#505050"
+		},
+		"labels": {
+			"visible": true,
+			"font": "9pt Sans-Serif",
+			"color": "#808080",
+			"excludeMin": false,
+			"rotation": null
+		},
+		"bodyLineStyle": {
+			"width": 1,
+			"color": "#E0E0E0",
+			"dash": ""
+		},
+		"baseLineStyle": {
+			"width": 1,
+			"color": "#E0E0E0",
+			"dash": ""
+		},
+		"minorGrid": {
+			"visible": false,
+			"count": null,
+			"lineStyle": {
+				"width": 1,
+				"color": "#EEEEEE",
+				"dash": ""
+			},
+			"ticks": {
+				"length": 5,
+				"style": "outer",
+				"visible": false,
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		},
+		"majorGrid": {
+			"visible": false,
+			"aboveRisers": false,
+			"lineStyle": {
+				"width": 1,
+				"color": "#EEEEEE",
+				"dash": ""
+			},
+			"ticks": {
+				"length": 5,
+				"visible": true,
+				"style": "outer",
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		}
+	},
+	"y2axis": {
+		"mustIncludeZero": true,
+		"title": {
+			"visible": true,
+			"font": "10pt Sans-Serif",
+			"color": "#505050"
+		},
+		"labels": {
+			"visible": true,
+			"font": "9pt Sans-Serif",
+			"color": "#808080",
+			"excludeMin": false,
+			"rotation": null
+		},
+		"bodyLineStyle": {
+			"width": 1,
+			"color": "#E0E0E0",
+			"dash": ""
+		},
+		"baseLineStyle": {
+			"width": 1,
+			"color": "#E0E0E0",
+			"dash": ""
+		},
+		"minorGrid": {
+			"visible": false,
+			"count": null,
+			"lineStyle": {
+				"width": 1,
+				"color": "#EEEEEE",
+				"dash": ""
+			},
+			"ticks": {
+				"length": 5,
+				"style": "outer",
+				"visible": false,
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		},
+		"majorGrid": {
+			"visible": false,
+			"aboveRisers": false,
+			"lineStyle": {
+				"width": 1,
+				"color": "#EEEEEE",
+				"dash": ""
+			},
+			"ticks": {
+				"length": 5,
+				"visible": true,
+				"style": "outer",
+				"lineStyle": {
+					"width": 1,
+					"color": "#BABABA"
+				}
+			}
+		}
+	},
+	"zaxis": {
+		"title": {
+			"text": "",
+			"visible": true,
+			"font": "10pt Sans-Serif",
+			"color": "#505050"
+		},
+		"labels": {
+			"visible": true,
+			"font": "9pt Sans-Serif",
+			"color": "#808080",
+			"excludeMin": false,
+			"excludeMax": "auto",
+			"rotation": null
+		},
+		"majorGrid": {
+			"visible": false,
+			"ticks": {
+				"visible": false
+			}
+		}
+	},
+	"matrixProperties": {
+		"rowLabels": {
+			"color": "#505050",
+			"font": "8pt Sans-Serif"
+		},
+		"colLabels": {
+			"color": "#505050",
+			"font": "8pt Sans-Serif"
+		},
+		"rowHeader": {
+			"color": "#505050",
+			"font": "10pt Sans-Serif"
+		},
+		"colHeader": {
+			"color": "#505050",
+			"font": "10pt Sans-Serif"
+		},
+		"cellBorder": {
+			"width": 1,
+			"color": "#E0E0E0"
+		}
+	},
+	"tagcloudProperties": {
+		"engine": "new",
+		"font": "14pt Sans-serif"
+	},
+	"morphAnimation": {
+		"duration": 1000
+	},
+"dataGridProperties": {
+"rowHeader": {
+"labels": {
+"color": "rgb(51,51,51)",
+"font": "10pt Sans-Serif"
+},
+"title": {
+"color": "rgb(51,51,51)",
+"font": "bold 10pt Sans-Serif",
+"dividerLine": {
+"color": "#E0E0E0"
+}
+},
+"innerGridLines": {
+"horizontal": {
+"color": "#E0E0E0"
+},
+"vertical": {
+"color": "#E0E0E0"
+}
+},
+"fill": "rgba(255,255,255,0)",
+"border": {
+"color": "#E0E0E0"
+},
+"dividerLine": {
+"color": "#E0E0E0"
+}
+},
+"colHeader": {
+"labels": {
+"color": "rgb(51,51,51)",
+"font": "10pt Sans-Serif"
+},
+"lastLabels": {
+"color": "rgb(51,51,51)",
+"font": "bold 10pt Sans-Serif"
+},
+"title": {
+"color": "rgb(51,51,51)",
+"font": "bold 10pt Sans-Serif",
+"dividerLine": {
+"color": "#E0E0E0"
+}
+},
+"innerGridLines": {
+"horizontal": {
+"color": "#E0E0E0"
+},
+"vertical": {
+"color": "#E0E0E0"
+}
+},
+"fill": "rgba(255,255,255,0)",
+"border": {
+"color": "#E0E0E0"
+},
+"dividerLine": {
+"color": "#E0E0E0"
+},
+"sorting": {
+"enabled": true
+},
+"resize": {
+"enabled": true
+},
+},
+"cell": {
+"labels": {
+"color": "rgb(51,51,51)",
+"font": "10pt Sans-Serif"
+},
+"innerGridLines": {
+"horizontal": {
+"color": "#E0E0E0"
+},
+"vertical": {
+"color": "#E0E0E0"
+}
+},
+"layout": {
+"cellPadding": {
+"top": 8,
+"right": 12,
+"bottom": 8,
+"left": 12
+}
+}
+},
+"columnTotals": {
+"border": {
+"color": "#E0E0E0"
+},
+"dividerLine": {
+"width": 1,
+"color": "#E0E0E0"
+},
+"cellLabel": {
+"color": "rgb(51,51,51)",
+"font": "bold 10pt Sans-Serif"
+}
+},
+},
+	"riserCycleEndLightness": 0.8,
+	"riserBevel": "none",
+	"showNullGroups": false,
+	"narrativeText": {
+		"label": {
+			"font": "11pt Arial",
+			"color": "#000000",
+			"align": "left"
+		},
+		"backgroundColor": "#FFFFFF",
+		"border": {
+			"width": 0,
+			"color": "#000000",
+			"dash": ""
+		}
+	},
+	"extensions": {
+		"com.esri.map": {
+			"baseLayer": {
+				"basemap": "gray"
+			}
+		}
+	},
+	"previewSelection":{
+		"selectedColor": null,
+	},
+	"dataSelection": {
+		"selectedBorder": {
+			"width": 2,
+			"color": 'auto'
+		},
+		"unselectedColor": '70% transparent',
+		"selectionRect": {
+			"fill": "rgba(120, 120, 180, 0.45)",
+			"border": {
+				"width": 1,
+				"color": "rgba(120, 120, 205, 0.8)"
+			}
+		}
+	},
+	"mouseOverIndicator":{
+		"border": {
+			"color": 'auto',
+			"width": 1
+		},
+		"marker": {
+			"color": '#F5B800',
+			"size": 8,
+			"border": {
+				"width": 1,
+				"color": 'auto'
+			}
+		}
+	},
+	"htmlToolTip" : {
+		"fill" : "rgba(0,0,0,1)",
+		"cascadeMenuStyle" : {
+			"label" : {
+				"font" : "12px sans-serif",
+				"color" : "white"
+			},
+			"nameValue" : {
+				"name" : {
+					"font" : "12px sans-serif",
+					"color" : "rgb(255, 246, 206)"
+				},
+				"value" : {
+					"font" : "12px sans-serif",
+					"color" : "white"
+				}
+			},
+"hover": {
+"fill": "#333333",
+"labelColor": "white"
+}
+		},
+		"border" : {
+			"color" : "rgba(0,0,0,.8)",
+			"cornerRadius" : 4
+		},
+		"style" : {
+			"color" : "white",
+			"padding": "10px"
+		}
+	}
+});
+chart.set({
+// The following properties were generated by the Reporting Server:
+data: [
+  [
+    [
+      6478
+    ]
+  ]
+]
+,yaxis: {
+  title: { visible: true ,text: 'RETAIL_COST' }
+}
+,series: [
+  {
+    series: 0
+   ,label: 'RETAIL_COST'
+   ,yAxisAssignment: 1
+   ,tooltip: {
+      regions: [
+        'WF_fields'
+       ,'WF_separator'
+       ,'WF_menu'
+      ]
+     ,WF_fields: [
+        { type: 'nameValue' ,name: 'COUNTRY' ,value: 'JAPAN' }
+       ,{ type: 'nameValue' ,name: 'RETAIL_COST' ,value: '{{value|#("#,###")}}' }
+      ]
+    }
+  }
+]
+,groupLabels: [
+  ' '
+]
+,dataArrayMap: [
+  'value'
+]
+,dataBuckets: {
+  internal_api_version: 2.0
+ ,buckets: [
+    {
+      id: 'value'
+     ,fields: [
+        { title: 'RETAIL_COST' ,fieldName: 'CAROLAP.BODY.RETAIL_COST' ,numberFormat: '#,###' }
+      ]
+    }
+  ]
+}
+});
+chart.set({
+"blaProperties": {
+"seriesLayout": "stacked"
+}
+});
+var divId = 'jschart_HOLD_';
+var defaultWidth = 769;
+var defaultHeight = 404;
+var fitWidthOnly = false;
+var minHeight = 0;
+var noResize = false;
+window.addEventListener('resizesuspend', onManageResize);
+window.addEventListener('resizeresume', onManageResize);
+window.addEventListener('redraw', onDraw);
+function onManageResize(event)
+{
+  noResize = event.type == 'resizesuspend';
+}
+function onDraw(event)
+{
+  window.onresize();
+}
+var drawn = false;
+window.onresize = function() {
+  if (noResize) return;
+  var chartArray;
+  if (Array.isArray(chart))
+    chartArray = chart;
+  else
+  {
+    chartArray = new Array(1);
+    chartArray[0] = chart;
+  }
+  var numCharts = chartArray.length;
+  var oldWidth = chartArray[0].width;
+  var oldChartHeight = chartArray[0].height;
+  var width = window.innerWidth || document.documentElement.offsetWidth;
+  var height = defaultHeight;
+  if (!fitWidthOnly)
+    height = window.innerHeight || document.documentElement.offsetHeight;
+  if (width == 0 || height == 0) {
+    width = defaultWidth;
+    height = defaultHeight;
+  }
+  var body = document.getElementsByTagName("body")[0];
+  var style;
+  if (body.currentStyle) // IE
+    style = body.currentStyle;
+  else if (window.getComputedStyle)
+    style = window.getComputedStyle(body, null);
+  if (style != undefined) {
+    var hMargins = parseInt(style.marginLeft, 10) + parseInt(style.marginRight, 10);
+    width -= hMargins;
+    var vMargins = parseInt(style.marginTop, 10) + parseInt(style.marginBottom, 10);
+    height -= vMargins;
+  }
+  var chartHeight = height / numCharts;
+  if (chartHeight < minHeight)
+    chartHeight = minHeight;
+  if (!drawn || (oldWidth != width) || (oldChartHeight != height)) {
+    for (var i = 0; i < numCharts; i++)
+    {
+      var chrt = chartArray[i];
+      chrt.width = width;
+      chrt.height = chartHeight;
+      chrt.draw(divId + i);
+    }
+    drawn = true;
+  }
+};
+window.onload = window.onresize;
+})();
+</script>
+<div style='display: none'>
+ENGLAND
+FRANCE
+ITALY
+JAPAN
+ 
+45319
+51065
+5610
+6478
+ 
+ 
+COUNTRY
+RETAIL_COST
+</div>
+</BODY>
+</HTML>
